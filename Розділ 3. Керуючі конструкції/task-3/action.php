@@ -1,5 +1,5 @@
 <?php
-if ( !empty($_POST['height']) && ($_POST['height']>0 && $_POST['height']<15) ) {
+if ( !empty($_POST['height']) && ($_POST['height']>0 && $_POST['height']<=15) ) {
     $height = $_POST['height'];
 
     for ($i=0; $i < $height; $i++) { 
