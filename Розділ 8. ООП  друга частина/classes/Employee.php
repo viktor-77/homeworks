@@ -7,7 +7,7 @@
         public $gender;
         public $salary;
         
-        function setName(string $userName) {
+        function setName(string $userName): void {
             $this->name = $userName;
         }
 
@@ -15,7 +15,7 @@
             return $this->name;
         }
 
-        function setAge(int $userAge) {
+        function setAge(int $userAge): void {
             $this->age = $userAge;
         }
 
@@ -23,7 +23,7 @@
             return $this->age;
         }
 
-        function setGender(string $userGender) {
+        function setGender(string $userGender): void {
             $this->gender = $userGender;    
         }
 
@@ -31,7 +31,7 @@
             return $this->gender;
         }
 
-        function setSalary(int $userSalary) {
+        function setSalary(int $userSalary): void {
             $this->salary = $userSalary;
         }
 
